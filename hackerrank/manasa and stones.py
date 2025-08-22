@@ -18,5 +18,5 @@ def stones(n, a, b):
             if tmp not in answer:
                 answer.append(tmp)
             a_count-=1
-            b_count+=1
+            b_count+=1 ## This will increment the count of b
     return answer ## This will return the list of possible stone values
