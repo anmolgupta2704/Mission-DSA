@@ -19,4 +19,4 @@ def stones(n, a, b):
                 answer.append(tmp)
             a_count-=1
             b_count+=1
-    return answer
+    return answer ## This will return the list of possible stone values
